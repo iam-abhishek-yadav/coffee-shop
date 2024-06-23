@@ -9,6 +9,7 @@ const ProductSchema = new mongoose.Schema({
 		ref: 'CoffeeShop',
 		required: true,
 	},
+	images: [String],
 });
 
 module.exports = mongoose.model('Product', ProductSchema);

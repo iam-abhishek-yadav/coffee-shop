@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
-import CoffeeShopDetail from './components/CoffeeShopDetail'; // Import your CoffeeShopDetail component
+import CoffeeShopDetail from './components/CoffeeShopDetail';
 
 function App() {
 	return (
@@ -9,12 +9,11 @@ function App() {
 				<Routes>
 					<Route
 						path='/'
-						exact
-						component={Home}
+						element={<Home />}
 					/>
 					<Route
-						path='/coffeeShop/:id'
-						component={CoffeeShopDetail}
+						path='/shop/:id'
+						element={<CoffeeShopDetail />}
 					/>
 				</Routes>
 			</div>

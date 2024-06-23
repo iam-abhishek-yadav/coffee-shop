@@ -10,13 +10,17 @@ const coffeeShops = [
 		name: 'Central Perk',
 		location: '90 Bedford St, New York, NY 10014',
 		ratings: 4.5,
-		images: ['https://example.com/image1.jpg'],
+		images: [
+			'https://centralperk.com/cdn/shop/files/new_logo_main_white_250x.png?v=1695018061',
+		],
 	},
 	{
 		name: 'The Daily Grind',
 		location: '123 Coffee St, Seattle, WA 98101',
 		ratings: 4.7,
-		images: ['https://example.com/image2.jpg'],
+		images: [
+			'https://dailygrind.ph/wp-content/uploads/2023/10/Daily-Grind-Coffee-logo.png',
+		],
 	},
 ];
 
@@ -25,21 +29,33 @@ const products = [
 		name: 'Espresso',
 		price: 3.0,
 		category: 'Coffee',
+		images: [
+			'https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=400',
+		],
 	},
 	{
 		name: 'Cappuccino',
 		price: 4.0,
 		category: 'Coffee',
+		images: [
+			'https://images.pexels.com/photos/189258/pexels-photo-189258.jpeg?auto=compress&cs=tinysrgb&w=400',
+		],
 	},
 	{
 		name: 'Latte',
 		price: 4.5,
 		category: 'Coffee',
+		images: [
+			'https://images.pexels.com/photos/1036444/pexels-photo-1036444.jpeg?auto=compress&cs=tinysrgb&w=400',
+		],
 	},
 	{
 		name: 'Bagel',
 		price: 2.5,
 		category: 'Food',
+		images: [
+			'https://images.pexels.com/photos/3957499/pexels-photo-3957499.jpeg?auto=compress&cs=tinysrgb&w=400',
+		],
 	},
 ];
 
